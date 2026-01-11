@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Quote Generator</title>
 
+  <meta name="description" content="Modern AI-powered quote generator PWA" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="top-bar">
+    <h1>AI Quotes</h1>
+    <nav>
+      <a href="favorites.html">❤️</a>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="quote-card">
+      <p id="quote-text">Thinking…</p>
+      <span id="quote-author"></span>
+
+      <div class="actions">
+        <button id="new-quote">New</button>
+        <button id="favorite">Save</button>
+        <button id="copy">Copy</button>
+        <button id="share">Share</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/pwa.js"></script>
+</body>
+</html>
