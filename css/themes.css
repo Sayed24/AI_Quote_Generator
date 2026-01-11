@@ -1,1 +1,5 @@
-
+body.light {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #020617;
+}
