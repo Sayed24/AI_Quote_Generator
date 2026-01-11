@@ -1,1 +1,3 @@
-
+@media (max-width: 600px) {
+  .quote-card { padding: 1.6rem; }
+}
